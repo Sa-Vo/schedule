@@ -1,6 +1,6 @@
 # TASKS
 
-- [x] nav menu
+- [✔] nav menu
 
 - [ ] add body
 - [ ] add data
