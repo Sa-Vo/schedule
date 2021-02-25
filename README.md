@@ -1,7 +1,7 @@
 # TASKS
 
-+  ### `nav menu`
+✔  ### `nav menu`
 
--   ### `add body`
--   ### `add data`
--   ### `testing`
+❓   ### `add body`
+❓  ### `add data`
+❓  ### `testing`
