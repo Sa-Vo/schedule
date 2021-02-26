@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavBar.css';
 
-const DayList = ({ days }) => (
+const DayList = ({ days, onShowBody }) => (
     <section>
         <ul className="day-box">
             <div className="logo-box">
@@ -9,8 +9,12 @@ const DayList = ({ days }) => (
                 <p className="logo-text--big">DEV</p>
             </div>
 
-            {days.map(({ shortName, id }) => (
-                <li key={id} className="day-box__container">
+            {days.map(({ shortName, id, name }) => (
+                <li
+                    key={id}
+                    className="day-box__container"
+                    onClick={() => onShowBody(name)}
+                >
                     <p className="day-box__item">{shortName}</p>
                 </li>
             ))}

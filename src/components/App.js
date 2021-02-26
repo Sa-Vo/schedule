@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import Layout from './Layout';
 import DayList from './DayList/DayList';
+import DayPanel from './DayPanel/DayPanel';
+import './DayPanel/DayPanel.css';
 
 export default class App extends Component {
     state = {
@@ -10,13 +13,25 @@ export default class App extends Component {
             { id: 4, name: 'Чітверг', shortName: 'Thu' },
             { id: 5, name: 'Пєтниця', shortName: 'Fri' },
         ],
+        isBoxVisible: false,
+    };
+
+    toggleBody = name => {
+        this.setState(prevState => ({
+            isBoxVisible: !prevState.isBoxVisible,
+        }));
     };
 
     render() {
+        const { isBoxVisible } = this.state;
+
         return (
-            <div>
-                <DayList days={this.state.days} />
-            </div>
+            <Layout>
+                <DayList days={this.state.days} onShowBody={this.toggleBody} />
+                <div className={`box ${isBoxVisible ? '' : 'hidden'}`}>
+                    <DayPanel />
+                </div>
+            </Layout>
         );
     }
 }
