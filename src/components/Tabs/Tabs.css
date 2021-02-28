@@ -1,0 +1,52 @@
+.SectionSchedule {
+    display: flex;
+}
+
+.DayBox {
+    width: 13rem;
+    height: 100vh;
+    background-color: #81d4fa;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BtnDay {
+    border: none;
+    text-transform: uppercase;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    background-color: #ff7043;
+    transition: 0.5s;
+    margin: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 2.5rem;
+}
+
+.LogoBox {
+    text-align: center;
+}
+
+.logo-text {
+    font-size: 2rem;
+}
+
+.logo-text--big {
+    font-size: 3rem;
+}
+
+/* ======= DayContent ======= */
+.DayContent {
+    background-color: red;
+    width: 80rem;
+    height: 50rem;
+    margin: 0 auto;
+}
