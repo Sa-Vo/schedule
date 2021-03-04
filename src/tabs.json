@@ -3,32 +3,132 @@
         "id": 0,
         "shortName": "Mon",
         "label": "Понеділок",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+        "schedule": [
+            {
+                "description": "Англійська",
+                "url": "https://meet.google.com/cjc-zqvp-xfd",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            },
+            {
+                "description": "Дворжак (JS лекції)",
+                "url": "https://meet.google.com/vdc-qcxo-zku",
+                "timeStart": "10:20",
+                "timeEnd": "11:55"
+            }
+        ]
     },
     {
         "id": 1,
         "shortName": "Tue",
         "label": "Вівторок",
-        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+        "schedule": [
+            {
+                "description": "Дьяченко( МЕРЕЖІ  лекції + лаби)",
+                "url": "https://meet.google.com/yac-crmr-gib",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            },
+            {
+                "description": "Остапов (Технол. Захисту Інформ лекції)",
+                "url": "https://meet.google.com/gax-krbb-sxy",
+                "timeStart": "10:20",
+                "timeEnd": "11:55"
+            },
+            {
+                "description": "Томка(.Net лекція)",
+                "url": "https://meet.google.com/aky-wsmz-zjm",
+                "timeStart": "12:10",
+                "timeEnd": "13:45"
+            }
+        ]
     },
     {
         "id": 2,
         "shortName": "Web",
         "label": "Середа",
-        "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+        "schedule": [
+            {
+                "description": "Талах (ІНТЕЛЕКТУАЛЬНИЙ АНАЛІЗ ДАНИХ лаби)",
+                "url": "https://meet.google.com/ywy-jwdu-mmf",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            },
+            {
+                "description": "Янушевський ( ТЕХНОЛОГІЇ ЗАХИСТУ ІНФОРМАЦІЇ  лаби)",
+                "url": "https://meet.google.com/ucv-xihc-zcd",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            },
+            {
+                "description": "Томка(.Net ЛБ)",
+                "url": "https://meet.google.com/bvh-gwnx-wbd",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            }
+        ]
     },
 
     {
         "id": 3,
         "shortName": "Thu",
         "label": "Четверг",
-        "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+        "schedule": [
+            {
+                "description": "Томка(ТСПП лекція)",
+                "url": "https://meet.google.com/aht-tuco-pcy",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            },
+            {
+                "description": "Галочкін (JAVA  лекції + лаби)",
+                "url": "https://meet.google.com/whs-mdna-dwn",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            },
+            {
+                "description": "Дьяченко( МЕРЕЖІ  лекції + лаби)",
+                "url": "https://meet.google.com/yac-crmr-gib",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            },
+            {
+                "description": "Дворжак (JS лаби)",
+                "url": "https://meet.google.com/iof-izpp-okw",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            }
+        ]
     },
 
     {
         "id": 4,
         "shortName": "Fri",
         "label": "Пятниця",
-        "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+        "schedule": [
+            {
+                "description": "Галочкін (JAVA  лекції + лаби)",
+                "url": "https://meet.google.com/whs-mdna-dwn",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            },
+            {
+                "description": "Томка(.Net лекція)",
+                "url": "https://meet.google.com/aky-wsmz-zjm",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            },
+            {
+                "description": "Windows",
+                "url": "#",
+                "timeStart": ""
+            },
+            {
+                "description": "Талах (ІНТЕЛЕКТУАЛЬНИЙ АНАЛІЗ ДАНИХ лекція)",
+                "url": "https://meet.google.com/ywy-jwdu-mmf",
+                "timeStart": "8:30",
+                "timeEnd": "10:05"
+            }
+        ]
     }
 ]

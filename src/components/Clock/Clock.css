@@ -1,0 +1,12 @@
+.ClockBox {
+    width: 40rem;
+    height: 20rem;
+    background-color: #e2e2e244;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Clock {
+    font-size: 5rem;
+    padding: 60px 0 60px 0;
+}

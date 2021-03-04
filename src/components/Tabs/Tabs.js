@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Clock from '../Clock/Clock';
+import { uuid } from 'uuidv4';
 import './Tabs.css';
 
 export default class Tabs extends Component {
@@ -13,13 +15,11 @@ export default class Tabs extends Component {
     };
 
     shouldComponentUpdate(nextProps, nextState) {
-        // console.log('nextState: ', nextState);
-        // console.log('this.state: ', this.state);
-
         return nextState.activeIdx !== this.state.activeIdx;
     }
 
     render() {
+        console.log(this.state.time);
         const tab = this.props.items[this.state.activeIdx];
 
         return (
@@ -31,7 +31,7 @@ export default class Tabs extends Component {
                     </div>
                     {this.props.items.map((item, idx) => (
                         <button
-                            className="BtnDay btn-2"
+                            className="BtnDay"
                             type="button"
                             key={item.id}
                             onClick={() => this.setActiveTabIdx(idx)}
@@ -41,9 +41,38 @@ export default class Tabs extends Component {
                     ))}
                 </div>
                 <article className="DayContent">
-                    <h2>{tab.label}</h2>
-                    <p>{tab.content}</p>
+                    <h2 className="Day">Сеґодня {tab.label}</h2>
+
+                    <ul className="LessonsBox">
+                        {tab.schedule.map(
+                            ({
+                                description,
+                                url,
+                                id = uuid(),
+                                timeStart,
+                                timeEnd,
+                            }) => (
+                                <li key={id} className="LessonItem">
+                                    <a href={url} className="LessonUrl">
+                                        {description}
+                                    </a>
+                                    <div className="TimeBoxLesson">
+                                        <p className="TimeLesson">
+                                            {timeStart}
+                                        </p>
+                                        <p className="TimeLesson">{timeEnd}</p>
+                                    </div>
+                                </li>
+                            ),
+                        )}
+                    </ul>
                 </article>
+                <section>
+                    <>
+                        <Clock />
+                    </>
+                    
+                </section>
             </section>
         );
     }
