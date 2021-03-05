@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Clock from '../Clock/Clock';
+import { GetCurDay } from './GetCurDay';
 import { uuid } from 'uuidv4';
 import './Tabs.css';
 
 export default class Tabs extends Component {
     state = {
-        activeIdx: 0,
+        activeIdx: GetCurDay(),
     };
 
     setActiveTabIdx = idx => {
@@ -19,7 +20,6 @@ export default class Tabs extends Component {
     }
 
     render() {
-        console.log(this.state.time);
         const tab = this.props.items[this.state.activeIdx];
 
         return (
@@ -40,8 +40,9 @@ export default class Tabs extends Component {
                         </button>
                     ))}
                 </div>
+
                 <article className="DayContent">
-                    <h2 className="Day">Сеґодня {tab.label}</h2>
+                    <h2 className="Day">Розклад на {tab.label}</h2>
 
                     <ul className="LessonsBox">
                         {tab.schedule.map(
@@ -66,13 +67,11 @@ export default class Tabs extends Component {
                             ),
                         )}
                     </ul>
-                </article>
-                <section>
+
                     <>
                         <Clock />
                     </>
-                    
-                </section>
+                </article>
             </section>
         );
     }

@@ -21,14 +21,19 @@
     width: 10rem;
     height: 10rem;
     text-align: center;
-    background-color: #ff7043;
+    /* background-color: #ff7043; */
+    color: white;
+    background-image: url(../../img/photo_2021-03-05_22-03-25.jpg);
+    background-size: cover;
     transition: 0.5s;
     margin: 1rem;
     text-decoration: none;
     display: inline-block;
     border-radius: 5px;
     font-size: 2.5rem;
+    font-weight: 600;
     margin-bottom: 3rem;
+    cursor: pointer;
 }
 
 .BtnDay:last-child {
@@ -94,6 +99,7 @@
     color: initial;
     font-size: 2rem;
     width: 42rem;
+    cursor: pointer;
 }
 
 .TimeBoxLesson {
