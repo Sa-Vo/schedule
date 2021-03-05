@@ -45,8 +45,8 @@
     },
     {
         "id": 2,
-        "shortName": "Web",
-        "label": "Середа",
+        "shortName": "Wed",
+        "label": "Середу",
         "schedule": [
             {
                 "description": "Талах (ІНТЕЛЕКТУАЛЬНИЙ АНАЛІЗ ДАНИХ лаби)",
@@ -104,7 +104,7 @@
     {
         "id": 4,
         "shortName": "Fri",
-        "label": "Пятниця",
+        "label": "Пятницю",
         "schedule": [
             {
                 "description": "Галочкін (JAVA  лекції + лаби)",
