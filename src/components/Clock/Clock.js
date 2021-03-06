@@ -25,7 +25,10 @@ export default class Clock extends Component {
             <div className="ClockBox">
                 <h2>{this.getDate}</h2>
                 <h2 className="Clock">
-                    {this.state.date.toLocaleTimeString()}
+                    {this.state.date.toLocaleTimeString([], {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                    })}
                 </h2>
             </div>
         );

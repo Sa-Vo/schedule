@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Clock from '../Clock/Clock';
+import ToggleBtnPanel from './Buttons';
 import { GetCurDay } from './GetCurDay';
 import { uuid } from 'uuidv4';
 import './Tabs.css';
+import tabsBtn from '../../tabs.json';
 
 export default class Tabs extends Component {
     state = {
@@ -29,7 +31,12 @@ export default class Tabs extends Component {
                         <p className="logo-text">SaVo</p>
                         <p className="logo-text--big">DEV</p>
                     </div>
-                    {this.props.items.map((item, idx) => (
+
+                    <ToggleBtnPanel
+                        getActiveIdx={this.setActiveTabIdx}
+                        items={tabsBtn}
+                    />
+                    {/* {this.props.items.map((item, idx) => (
                         <button
                             className="BtnDay"
                             type="button"
@@ -38,7 +45,7 @@ export default class Tabs extends Component {
                         >
                             {item.shortName}
                         </button>
-                    ))}
+                    ))} */}
                 </div>
 
                 <article className="DayContent">
