@@ -5,7 +5,7 @@
 .DayBox {
     width: 13rem;
     height: 100vh;
-    background-color: #81d4fa;
+    /* background-color: #81d4fa; */
     margin: 0;
     padding: 0;
     padding-bottom: 2.5rem;
@@ -19,8 +19,9 @@
     margin: 0;
 }
 
-.BtnDay:focus {
-    background-color: #ffee58;
+.Logo {
+    text-decoration: none;
+    color: #fafafa;
 }
 
 .LogoBox {
@@ -29,11 +30,11 @@
 }
 
 .logo-text {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .logo-text--big {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 /* ======= DayContent ======= */
@@ -57,7 +58,6 @@
 
 .LessonItem {
     align-items: center;
-    background-color: #f9d57f;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@
     padding-left: 2.5rem;
     text-decoration: none;
     color: initial;
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: 42rem;
     cursor: pointer;
 }
@@ -88,8 +88,8 @@
     height: 6.6rem;
     width: 8rem;
     padding: 12px 5px;
-    background-color: #ff9800;
+    /* background-color: #ff9800; */
     text-align: center;
     font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 100;
 }

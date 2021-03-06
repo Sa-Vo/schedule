@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Clock from '../Clock/Clock';
 import ToggleBtnPanel from './Buttons';
-import { GetCurDay } from './GetCurDay';
+import { GetCurDay } from '../../utilities/utileties';
 import { uuid } from 'uuidv4';
 import './Tabs.css';
 import tabsBtn from '../../tabs.json';
@@ -27,25 +27,22 @@ export default class Tabs extends Component {
         return (
             <section className="SectionSchedule">
                 <div className="DayBox">
-                    <div className="LogoBox">
-                        <p className="logo-text">SaVo</p>
-                        <p className="logo-text--big">DEV</p>
-                    </div>
+                    <a
+                        className="Logo"
+                        rel="noopener noreferrer"
+                        href="https://sa-vo.github.io/SaVo/"
+                        target="_blank"
+                    >
+                        <div className="LogoBox">
+                            <p className="logo-text">SaVo</p>
+                            <p className="logo-text--big">DEV</p>
+                        </div>
+                    </a>
 
                     <ToggleBtnPanel
                         getActiveIdx={this.setActiveTabIdx}
                         items={tabsBtn}
                     />
-                    {/* {this.props.items.map((item, idx) => (
-                        <button
-                            className="BtnDay"
-                            type="button"
-                            key={item.id}
-                            onClick={() => this.setActiveTabIdx(idx)}
-                        >
-                            {item.shortName}
-                        </button>
-                    ))} */}
                 </div>
 
                 <article className="DayContent">
@@ -74,10 +71,6 @@ export default class Tabs extends Component {
                             ),
                         )}
                     </ul>
-
-                    <>
-                        <Clock />
-                    </>
                 </article>
             </section>
         );

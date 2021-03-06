@@ -3,18 +3,6 @@ html {
     font-size: 62.5%;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    background-color: #ffeeff;
-}
-
 img {
     display: block;
     max-width: 100%;

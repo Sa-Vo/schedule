@@ -1,5 +1,3 @@
-import React from 'react';
-
 export function GetCurDay() {
     const d = new Date();
     let dayweek = d.getDate();

@@ -7,7 +7,7 @@ const Button = styled.button`
     width: 8rem;
     height: 8rem;
     text-align: center;
-    background-color: #ff7043;
+    background: ${({ theme }) => theme.button};
     color: white;
     background-size: cover;
     transition: 0.5s;
@@ -15,12 +15,12 @@ const Button = styled.button`
     display: inline-block;
     border-radius: 5px;
     font-size: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     cursor: pointer;
     transition: 0.5s;
 `;
 const ButtonToggle = styled(Button)`
-    opacity: 0.6;
+    opacity: 0.825;
     ${({ active }) =>
         active &&
         `
