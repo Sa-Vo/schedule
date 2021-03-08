@@ -1,6 +1,6 @@
 export function GetCurDay() {
     const d = new Date();
-    let dayweek = d.getDate();
+    let dayweek = d.getDay();
 
     return dayweek === 6 || dayweek === 7 ? 0 : dayweek - 1;
 }
