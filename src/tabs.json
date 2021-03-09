@@ -36,8 +36,8 @@
                 "timeEnd": "11:10"
             },
             {
-                "description": ".Net лекція",
-                "url": "https://meet.google.com/aky-wsmz-zjm",
+                "description": "ТСПП лекція",
+                "url": "https://meet.google.com/aht-tuco-pcy",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
             }
@@ -107,7 +107,7 @@
         "label": "Пятницю",
         "schedule": [
             {
-                "description": "JAVA  лекція)",
+                "description": "JAVA  лекція",
                 "url": "https://meet.google.com/whs-mdna-dwn",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
