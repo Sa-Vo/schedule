@@ -23,7 +23,6 @@ export default class Tabs extends Component {
 
     render() {
         const tab = this.props.items[this.state.activeIdx];
-
         return (
             <section className="SectionSchedule">
                 <div className="DayBox">

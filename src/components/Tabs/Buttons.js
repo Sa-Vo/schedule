@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import { GetCurDay } from '../../utilities/utileties';
 
 const Button = styled.button`
     border: none;
@@ -33,7 +34,7 @@ const ButtonToggle = styled(Button)`
 `;
 
 export default function ToggleBtnPanel({ getActiveIdx, items }) {
-    const [active, setActive] = useState(items[0]);
+    const [active, setActive] = useState(items[GetCurDay()]);
     return (
         <>
             {items.map((item, idx) => (
