@@ -8,13 +8,13 @@
                 "description": "Англійська",
                 "url": "https://meet.google.com/cjc-zqvp-xfd",
                 "timeStart": "8:20",
-                "timeEnd": "9:50"
+                "timeEnd": "9:40"
             },
             {
-                "description": "Дворжак (JS лекції)",
+                "description": "JavaScript лекція",
                 "url": "https://meet.google.com/vdc-qcxo-zku",
-                "timeStart": "10:20",
-                "timeEnd": "11:55"
+                "timeStart": "9:50",
+                "timeEnd": "11:10"
             }
         ]
     },
@@ -24,22 +24,22 @@
         "label": "Вівторок",
         "schedule": [
             {
-                "description": "Дьяченко( МЕРЕЖІ  лекції + лаби)",
+                "description": "Мережі лекція",
                 "url": "https://meet.google.com/yac-crmr-gib",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "8:20",
+                "timeEnd": "9:40"
             },
             {
-                "description": "Остапов (Технол. Захисту Інформ лекції)",
+                "description": "Захист Інформ. лекція",
                 "url": "https://meet.google.com/gax-krbb-sxy",
-                "timeStart": "10:20",
-                "timeEnd": "11:55"
+                "timeStart": "9:50",
+                "timeEnd": "11:10"
             },
             {
-                "description": "Томка(.Net лекція)",
-                "url": "https://meet.google.com/aky-wsmz-zjm",
-                "timeStart": "12:10",
-                "timeEnd": "13:45"
+                "description": "ТСПП лекція",
+                "url": "https://meet.google.com/aht-tuco-pcy",
+                "timeStart": "11:30",
+                "timeEnd": "12:50"
             }
         ]
     },
@@ -49,22 +49,22 @@
         "label": "Середу",
         "schedule": [
             {
-                "description": "Талах (ІНТЕЛЕКТУАЛЬНИЙ АНАЛІЗ ДАНИХ лаби)",
+                "description": "Інтелектуальний аналіз (Lab)",
                 "url": "https://meet.google.com/ywy-jwdu-mmf",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "8:20",
+                "timeEnd": "9:40"
             },
             {
-                "description": "Янушевський ( ТЕХНОЛОГІЇ ЗАХИСТУ ІНФОРМАЦІЇ  лаби)",
+                "description": "Захист Інформ (Lab)",
                 "url": "https://meet.google.com/ucv-xihc-zcd",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "9:50",
+                "timeEnd": "11:10"
             },
             {
-                "description": "Томка(.Net ЛБ)",
+                "description": "ASP.NET (Lab)",
                 "url": "https://meet.google.com/bvh-gwnx-wbd",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "11:30",
+                "timeEnd": "12:50"
             }
         ]
     },
@@ -75,28 +75,28 @@
         "label": "Четверг",
         "schedule": [
             {
-                "description": "Томка(ТСПП лекція)",
+                "description": "ТСПП лекція",
                 "url": "https://meet.google.com/aht-tuco-pcy",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "8:20",
+                "timeEnd": "9:40"
             },
             {
-                "description": "Галочкін (JAVA  лекції + лаби)",
+                "description": "JAVA  лекція",
                 "url": "https://meet.google.com/whs-mdna-dwn",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "9:50",
+                "timeEnd": "11:10"
             },
             {
-                "description": "Дьяченко( МЕРЕЖІ  лекції + лаби)",
+                "description": "Мережі",
                 "url": "https://meet.google.com/yac-crmr-gib",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "11:30",
+                "timeEnd": "12:50"
             },
             {
-                "description": "Дворжак (JS лаби)",
+                "description": "JavaScript (Lab)",
                 "url": "https://meet.google.com/iof-izpp-okw",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "13:00",
+                "timeEnd": "14:20"
             }
         ]
     },
@@ -107,27 +107,27 @@
         "label": "Пятницю",
         "schedule": [
             {
-                "description": "Галочкін (JAVA  лекції + лаби)",
+                "description": "JAVA  лекція",
                 "url": "https://meet.google.com/whs-mdna-dwn",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "8:20",
+                "timeEnd": "9:40"
             },
             {
-                "description": "Томка(.Net лекція)",
+                "description": "ASP.NET лекція",
                 "url": "https://meet.google.com/aky-wsmz-zjm",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "9:50",
+                "timeEnd": "11:10"
             },
             {
-                "description": "Віндоус",
+                "description": "Окно",
                 "url": "#",
                 "timeStart": ""
             },
             {
-                "description": "Талах (ІНТЕЛЕКТУАЛЬНИЙ АНАЛІЗ ДАНИХ лекція)",
+                "description": "Інтелектуальний аналіз лекція",
                 "url": "https://meet.google.com/ywy-jwdu-mmf",
-                "timeStart": "8:30",
-                "timeEnd": "10:05"
+                "timeStart": "13:00",
+                "timeEnd": "14:20"
             }
         ]
     }
