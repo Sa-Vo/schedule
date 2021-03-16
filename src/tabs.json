@@ -36,8 +36,8 @@
                 "timeEnd": "11:10"
             },
             {
-                "description": "ТСПП лекція",
-                "url": "https://meet.google.com/aht-tuco-pcy",
+                "description": "ASP.NET лекція",
+                "url": "https://meet.google.com/aky-wsmz-zjm",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
             }
@@ -75,8 +75,8 @@
         "label": "Четверг",
         "schedule": [
             {
-                "description": "ТСПП лекція",
-                "url": "https://meet.google.com/aht-tuco-pcy",
+                "description": "ТСПП (Lab)",
+                "url": "https://meet.google.com/ast-eqmt-xwn",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
@@ -120,7 +120,7 @@
             },
             {
                 "description": "Окно",
-                "url": "#",
+                "url": "steam://rungameid/570",
                 "timeStart": ""
             },
             {
