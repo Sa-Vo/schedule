@@ -2,8 +2,9 @@ export function GetCurDay() {
     const d = new Date();
     let dayweek = d.getDay();
     let getCurrTime = d.getHours();
-    getCurrTime > 17 ? dayweek += 1 : dayweek = dayweek;
-    return dayweek > 5 ? 0 : dayweek - 1;
+    if (dayweek === 0 || dayweek === 6) dayweek = 1;
+    else getCurrTime > 17 ? dayweek += 1 : dayweek = dayweek;
+    return dayweek - 1;
 }
 
 export const lightTheme = {

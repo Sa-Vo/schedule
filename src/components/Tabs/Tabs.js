@@ -57,7 +57,7 @@ export default class Tabs extends Component {
                                 timeEnd,
                             }) => (
                                 <li key={id} className="LessonItem">
-                                    <a href={url} className="LessonUrl">
+                                    <a href={url} className="LessonUrl" target="_blank">
                                         {description}
                                     </a>
                                     <div className="TimeBoxLesson">
