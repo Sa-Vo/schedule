@@ -5,16 +5,22 @@
         "label": "Понеділок",
         "schedule": [
             {
-                "description": "Англійська",
-                "url": "https://meet.google.com/cjc-zqvp-xfd",
+                "description": "Системний аналіз",
+                "url": "#",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
             {
-                "description": "JavaScript лекція",
-                "url": "https://meet.google.com/vdc-qcxo-zku",
+                "description": "Розробка моб. додатків",
+                "url": "#",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
+            },
+            {
+                "description": "Англ. Мова",
+                "url": "#",
+                "timeStart": "11:30",
+                "timeEnd": "12:50"
             }
         ]
     },
@@ -24,22 +30,16 @@
         "label": "Вівторок",
         "schedule": [
             {
-                "description": "Мережі лекція",
-                "url": "https://meet.google.com/yac-crmr-gib",
+                "description": "Розробка моб. додатків",
+                "url": "#",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
             {
-                "description": "Захист Інформ. лекція",
-                "url": "https://meet.google.com/gax-krbb-sxy",
+                "description": "Управління ІТ проектами ",
+                "url": "https://meet.google.com/zxs-mkyu-jwc",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
-            },
-            {
-                "description": "ТСПП лекція",
-                "url": "https://meet.google.com/aky-wsmz-zjm",
-                "timeStart": "11:30",
-                "timeEnd": "12:50"
             }
         ]
     },
@@ -49,22 +49,22 @@
         "label": "Середу",
         "schedule": [
             {
-                "description": "Інтелектуальний аналіз (Lab)",
-                "url": "https://meet.google.com/ywy-jwdu-mmf",
-                "timeStart": "8:20",
-                "timeEnd": "9:40"
-            },
-            {
-                "description": "Захист Інформ (Lab)",
-                "url": "https://meet.google.com/ucv-xihc-zcd",
-                "timeStart": "9:50",
-                "timeEnd": "11:10"
-            },
-            {
-                "description": "ASP.NET (Lab)",
-                "url": "https://meet.google.com/bvh-gwnx-wbd",
+                "description": "Теорія прийняття рішень",
+                "url": "#",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
+            },
+            {
+                "description": "Управління ІТ проектами (Lab)",
+                "url": "https://meet.google.com/xfm-vmih-rfv",
+                "timeStart": "13:00",
+                "timeEnd": "14:20"
+            },
+            {
+                "description": "Теорія прийняття рішень (Lab)",
+                "url": "#",
+                "timeStart": "14:40",
+                "timeEnd": "16:00"
             }
         ]
     },
@@ -75,28 +75,16 @@
         "label": "Четверг",
         "schedule": [
             {
-                "description": "ТСПП (Lab)",
-                "url": "https://meet.google.com/ast-eqmt-xwn",
-                "timeStart": "8:20",
-                "timeEnd": "9:40"
-            },
-            {
-                "description": "JAVA  лекція",
-                "url": "https://meet.google.com/whs-mdna-dwn",
-                "timeStart": "9:50",
-                "timeEnd": "11:10"
-            },
-            {
-                "description": "Мережі",
-                "url": "https://meet.google.com/yac-crmr-gib",
-                "timeStart": "11:30",
-                "timeEnd": "12:50"
-            },
-            {
-                "description": "JavaScript (Lab)",
-                "url": "https://meet.google.com/iof-izpp-okw",
+                "description": "Геоінформаційні системи",
+                "url": "https://meet.google.com/owa-mzdu-fhi",
                 "timeStart": "13:00",
                 "timeEnd": "14:20"
+            },
+            {
+                "description": "Інтелектуальний аналіз",
+                "url": "https://meet.google.com/owa-mzdu-fhi",
+                "timeStart": "14:40",
+                "timeEnd": "16:00"
             }
         ]
     },
@@ -107,25 +95,20 @@
         "label": "Пятницю",
         "schedule": [
             {
-                "description": "JAVA  лекція",
-                "url": "https://meet.google.com/whs-mdna-dwn",
+                "description": "Геоінформаційні системи",
+                "url": "#",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
             {
-                "description": "ASP.NET лекція",
-                "url": "https://meet.google.com/aky-wsmz-zjm",
+                "description": "Інтелектуальний  аналіз",
+                "url": "#",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
             },
             {
-                "description": "Окно",
-                "url": "steam://rungameid/570",
-                "timeStart": ""
-            },
-            {
-                "description": "Інтелектуальний аналіз лекція",
-                "url": "https://meet.google.com/ywy-jwdu-mmf",
+                "description": "– / Системний аналіз",
+                "url": "#",
                 "timeStart": "13:00",
                 "timeEnd": "14:20"
             }
