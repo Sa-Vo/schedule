@@ -6,19 +6,19 @@
         "schedule": [
             {
                 "description": "Системний аналіз",
-                "url": "#",
+                "url": "https://meet.google.com/czn-tcby-vtq",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
             {
                 "description": "Розробка моб. додатків",
-                "url": "#",
+                "url": "https://meet.google.com/lookup/dudlmnkxfm",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
             },
             {
                 "description": "Англ. Мова",
-                "url": "#",
+                "url": "https://meet.google.com/euq-ewbz-djd",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
             }
@@ -31,7 +31,7 @@
         "schedule": [
             {
                 "description": "Розробка моб. додатків",
-                "url": "#",
+                "url": "https://meet.google.com/lookup/dudlmnkxfm",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
@@ -49,7 +49,7 @@
         "label": "Середу",
         "schedule": [
             {
-                "description": "Теорія прийняття рішень",
+                "description": "Теорія прийняття рішень (Lab)",
                 "url": "#",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
@@ -61,7 +61,7 @@
                 "timeEnd": "14:20"
             },
             {
-                "description": "Теорія прийняття рішень (Lab)",
+                "description": "Теорія прийняття рішень",
                 "url": "#",
                 "timeStart": "14:40",
                 "timeEnd": "16:00"
@@ -76,7 +76,7 @@
         "schedule": [
             {
                 "description": "Геоінформаційні системи",
-                "url": "https://meet.google.com/owa-mzdu-fhi",
+                "url": "https://meet.google.com/wze-eeds-fxc",
                 "timeStart": "13:00",
                 "timeEnd": "14:20"
             },
@@ -96,19 +96,19 @@
         "schedule": [
             {
                 "description": "Геоінформаційні системи",
-                "url": "#",
+                "url": "https://meet.google.com/wze-eeds-fxc",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
             {
                 "description": "Інтелектуальний  аналіз",
-                "url": "#",
+                "url": "https://meet.google.com/wze-eeds-fxc",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
             },
             {
                 "description": "– / Системний аналіз",
-                "url": "#",
+                "url": "https://meet.google.com/czn-tcby-vtq",
                 "timeStart": "13:00",
                 "timeEnd": "14:20"
             }
