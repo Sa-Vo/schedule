@@ -16,18 +16,18 @@
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
             },
- 	    {
+            {
                 "description": "Проектування інформаційних систем(Лекція)",
                 "url": "https://meet.google.com/qeq-ezzm-bhi",
                 "timeStart": "13:00",
                 "timeEnd": "14:20"
             },
- 	    {
+            {
                 "description": "Спеціалізовані СКБД(Лаб)",
                 "url": "https://meet.google.com/guk-tvto-fja",
                 "timeStart": "14:40",
                 "timeEnd": "16:00"
-            },
+            }
         ]
     },
     {
@@ -92,24 +92,24 @@
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
             },
-	    {
+            {
                 "description": "Інструментальні засоби обробки даних",
                 "url": "#",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
             },
-	    {
+            {
                 "description": "Паралельне програмування та розподілені с-ми(Лекція)",
                 "url": "#",
                 "timeStart": "13:00",
                 "timeEnd": "14:20"
             },
-	    {
+            {
                 "description": "Паралельне програмування та розподілені с-ми(лаб)",
                 "url": "#",
                 "timeStart": "14:40",
                 "timeEnd": "16:00"
-            },
+            }
         ]
     },
 
