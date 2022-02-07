@@ -5,14 +5,8 @@
         "label": "Понеділок",
         "schedule": [
             {
-                "description": "Системний аналіз",
-                "url": "https://meet.google.com/czn-tcby-vtq",
-                "timeStart": "8:20",
-                "timeEnd": "9:40"
-            },
-            {
-                "description": "Розробка моб. додатків",
-                "url": "https://meet.google.com/lookup/dudlmnkxfm",
+                "description": "Методи та системи штучного інтелекту(Лекція)",
+                "url": "https://meet.google.com/uim-pcch-xub",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
             },
@@ -21,7 +15,19 @@
                 "url": "https://meet.google.com/euq-ewbz-djd",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
-            }
+            },
+ 	    {
+                "description": "Проектування інформаційних систем(Лекція)",
+                "url": "https://meet.google.com/qeq-ezzm-bhi",
+                "timeStart": "13:00",
+                "timeEnd": "14:20"
+            },
+ 	    {
+                "description": "Спеціалізовані СКБД(Лаб)",
+                "url": "https://meet.google.com/guk-tvto-fja",
+                "timeStart": "14:40",
+                "timeEnd": "16:00"
+            },
         ]
     },
     {
@@ -30,14 +36,14 @@
         "label": "Вівторок",
         "schedule": [
             {
-                "description": "Розробка моб. додатків",
-                "url": "https://meet.google.com/lookup/dudlmnkxfm",
+                "description": "Проектування інформаційних систем(Лаб)",
+                "url": "https://meet.google.com/qeq-ezzm-bhi",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
             {
-                "description": "Управління ІТ проектами ",
-                "url": "https://meet.google.com/zxs-mkyu-jwc",
+                "description": "Спеціалізовані СКБД(Лекція)",
+                "url": "https://meet.google.com/guk-tvto-fja",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
             }
@@ -49,22 +55,22 @@
         "label": "Середу",
         "schedule": [
             {
-                "description": "Теорія прийняття рішень (Lab)",
+                "description": "Тестування ПЗ(Лекція)",
+                "url": "https://meet.google.com/yac-crmr-gib?pli=1&authuser=3",
+                "timeStart": "8:20",
+                "timeEnd": "9:40"
+            },
+            {
+                "description": "Інструментальні засоби обробки даних",
                 "url": "#",
+                "timeStart": "9:50",
+                "timeEnd": "11:10"
+            },
+            {
+                "description": "Методи та системи штучного інтелекту(Лаб)",
+                "url": "https://meet.google.com/uim-pcch-xub",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
-            },
-            {
-                "description": "Управління ІТ проектами (Lab)",
-                "url": "https://meet.google.com/xfm-vmih-rfv",
-                "timeStart": "13:00",
-                "timeEnd": "14:20"
-            },
-            {
-                "description": "Теорія прийняття рішень",
-                "url": "#",
-                "timeStart": "14:40",
-                "timeEnd": "16:00"
             }
         ]
     },
@@ -75,17 +81,35 @@
         "label": "Четверг",
         "schedule": [
             {
-                "description": "Геоінформаційні системи",
-                "url": "https://meet.google.com/wze-eeds-fxc",
+                "description": "Паралельне програмування та розподілені с-ми(лаб)",
+                "url": "#",
+                "timeStart": "8:20",
+                "timeEnd": "9:40"
+            },
+            {
+                "description": "Тестування ПЗ(Лаб)",
+                "url": "https://meet.google.com/yac-crmr-gib?pli=1&authuser=3",
+                "timeStart": "9:50",
+                "timeEnd": "11:10"
+            },
+	    {
+                "description": "Інструментальні засоби обробки даних",
+                "url": "#",
+                "timeStart": "11:30",
+                "timeEnd": "12:50"
+            },
+	    {
+                "description": "Паралельне програмування та розподілені с-ми(Лекція)",
+                "url": "#",
                 "timeStart": "13:00",
                 "timeEnd": "14:20"
             },
-            {
-                "description": "Інтелектуальний аналіз",
-                "url": "https://meet.google.com/owa-mzdu-fhi",
+	    {
+                "description": "Паралельне програмування та розподілені с-ми(лаб)",
+                "url": "#",
                 "timeStart": "14:40",
                 "timeEnd": "16:00"
-            }
+            },
         ]
     },
 
@@ -95,22 +119,10 @@
         "label": "Пятницю",
         "schedule": [
             {
-                "description": "Геоінформаційні системи",
-                "url": "https://meet.google.com/wze-eeds-fxc",
+                "description": "ВИХІДНИЙ",
+                "url": "#",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
-            },
-            {
-                "description": "Інтелектуальний  аналіз",
-                "url": "https://meet.google.com/wze-eeds-fxc",
-                "timeStart": "9:50",
-                "timeEnd": "11:10"
-            },
-            {
-                "description": "– / Системний аналіз",
-                "url": "https://meet.google.com/czn-tcby-vtq",
-                "timeStart": "13:00",
-                "timeEnd": "14:20"
             }
         ]
     }
