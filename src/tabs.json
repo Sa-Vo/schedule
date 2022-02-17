@@ -5,25 +5,25 @@
         "label": "Понеділок",
         "schedule": [
             {
-                "description": "Методи та системи штучного інтелекту(Лекція)",
+                "description": "Методи та системи AI (Лек)",
                 "url": "https://meet.google.com/uim-pcch-xub",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
             },
             {
-                "description": "Англ. Мова",
+                "description": "English",
                 "url": "https://meet.google.com/euq-ewbz-djd",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
             },
             {
-                "description": "Проектування інформаційних систем(Лекція)",
+                "description": "Проектування інф. систем (Лек)",
                 "url": "https://meet.google.com/qeq-ezzm-bhi",
                 "timeStart": "13:00",
                 "timeEnd": "14:20"
             },
             {
-                "description": "Спеціалізовані СКБД(Лаб)",
+                "description": "Спеціалізовані СКБД (Лаб)",
                 "url": "https://meet.google.com/guk-tvto-fja",
                 "timeStart": "14:40",
                 "timeEnd": "16:00"
@@ -36,13 +36,13 @@
         "label": "Вівторок",
         "schedule": [
             {
-                "description": "Проектування інформаційних систем(Лаб)",
+                "description": "Проектування інф. систем (Лаб)",
                 "url": "https://meet.google.com/qeq-ezzm-bhi",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
             {
-                "description": "Спеціалізовані СКБД(Лекція)",
+                "description": "Спеціалізовані СКБД (Лек)",
                 "url": "https://meet.google.com/guk-tvto-fja",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
@@ -55,19 +55,19 @@
         "label": "Середу",
         "schedule": [
             {
-                "description": "Тестування ПЗ(Лекція)",
+                "description": "Тестування ПЗ (Лек)",
                 "url": "https://meet.google.com/yac-crmr-gib?pli=1&authuser=3",
                 "timeStart": "8:20",
                 "timeEnd": "9:40"
             },
             {
-                "description": "Інструментальні засоби обробки даних",
+                "description": "#Засоби обробки даних",
                 "url": "#",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
             },
             {
-                "description": "Методи та системи штучного інтелекту(Лаб)",
+                "description": "Методи та системи AI (Лаб)",
                 "url": "https://meet.google.com/uim-pcch-xub",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
@@ -87,19 +87,19 @@
                 "timeEnd": "9:40"
             },
             {
-                "description": "Інструментальні засоби обробки даних",
+                "description": "Засоби обробки даних",
                 "url": "https://meet.google.com/yac-crmr-gib?pli=1&authuser=3",
                 "timeStart": "9:50",
                 "timeEnd": "11:10"
             },
             {
-               "description": "Паралельне програмування та розподілені с-ми(Лекція)",
+               "description": "Паралельне програмування (Лек)",
                 "url": "https://meet.google.com/rix-fsao-hki",
                 "timeStart": "11:30",
                 "timeEnd": "12:50"
             },
             {
-                "description": "Паралельне програмування та розподілені с-ми(лаб)",
+                "description": "#Паралельне програмування (Лаб)",
                 "url": "#",
                 "timeStart": "13:00",
                 "timeEnd": "14:20"
